@@ -19,7 +19,7 @@ First, Clone the GitHub repository
 ```
 $ git clone
 "https://github.com/animus-liber/udacity-fend-restaurant-reviews-stage-1-master.git"
-$ cd "udacity-fend-restaurant-reviews-stage-1"
+$ cd "udacity-fend-restaurant-reviews-stage-1-master"
 ```
 Next you'll need to add your newly create mapbox token
 ```
