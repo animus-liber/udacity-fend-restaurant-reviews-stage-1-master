@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* Change view when viewport becomes 750px or bigger */
+
+/* ====================== Main ====================== */
+
+/* Show 2 Restaurants per row */
+#restaurants-list li {
+  width: 35vw;
+}
+
+/* Show 2 reviews per row */
+
+#reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#reviews-list li {
+  width: 35vw;
+}
+
+/* ====================== Restaurant Details ====================== */
+
+.inside #main-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #2b2e3b;
+}
+
+.inside #map-container {
+  padding: 0;
+  order: 2;
+  width: 35%;
+  height: 100%;
+  align-self: center;
+  min-height: 100vh;
+  display: flex;
+  background: inherit;
+}
+
+.inside #map {
+  height: 95vh;
+  width: 95%;
+  align-self: center;
+}
+
+.inside #restaurant-container {
+  padding: 0;
+  order: 1;
+  width: 65%;
+}
+
+.inside #restaurant-img {
+  padding: 1.5rem;
+}
+
+.inside #restaurant-hours {
+  margin-bottom: 15px;
+}
+
+.inside #reviews-container {
+  order: 3;
+  width: 100%;
+  background-color: #eeeeee;
+}
