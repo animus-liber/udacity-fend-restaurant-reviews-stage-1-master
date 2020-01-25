@@ -18,7 +18,7 @@ This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://w
 First, Clone the GitHub repository
 ```
 $ git clone
-"https://github.com/animus-liber/udacity-fend-restaurant-reviews-stage-1.git"
+"https://github.com/animus-liber/udacity-fend-restaurant-reviews-stage-1-master.git"
 $ cd "udacity-fend-restaurant-reviews-stage-1"
 ```
 Next you'll need to add your newly create mapbox token
