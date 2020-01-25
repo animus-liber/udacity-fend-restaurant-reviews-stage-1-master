@@ -41,6 +41,7 @@ If you have Python 2.x, start your server in your root
 `$ python -m SimpleHTTPServer 8000`
 
 For Python 3.x, you can use `python3 -m http.server 8000`.
+
 On windows the command should be: `py -m http.server 8000`.
 
 If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
